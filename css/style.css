@@ -63,7 +63,27 @@ h3 {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
     text-align: left;
 }
+
+.ad {
+    height: 600px;
+    width: 300px;
+    position: fixed;
+    top: 10px;
+}
+
+.ad.left {
+    left: 10px;
+}
+
+.ad.right {
+    right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .ad {
+        display: none !important;
+    }
+}
+  
