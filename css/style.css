@@ -81,6 +81,12 @@ h3 {
     right: 10px;
 }
 
+.logo {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 1024px) {
     .ad {
         display: none !important;
